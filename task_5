@@ -1,0 +1,7 @@
+print("input A")
+A = float(input())
+print("input B")
+B = float(input())
+if A != 0:
+    x = -B/A
+print("X = "+str(x))
