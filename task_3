@@ -1,0 +1,9 @@
+print("input Weight for price")
+w = float(input())
+print("input price")
+p = float(input())
+print("input Weight that you want to buy")
+y = float(input())
+p1 = p/w
+p2 = p1*y
+print("Price for 1 kg is "+str(p1)+" and price for "+str(y)+" kg is "+str(p2))
