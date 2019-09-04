@@ -1,0 +1,4 @@
+print("input aPi")
+aPi = float(input())
+a = aPi*180
+print(a)
