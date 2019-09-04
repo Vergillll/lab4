@@ -1,0 +1,11 @@
+print("input first car's speed")
+v1 = float(input())
+print("input second car's speed")
+v2 = float(input())
+print("input S between cars")
+s1 = float(input())
+print("input time")
+t = float(input())
+V = v1+v2
+S = V*t+s1
+print("S between cars = "+str(S))
